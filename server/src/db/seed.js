@@ -4,7 +4,7 @@ const db = require("./index");
 function upsertUser(u) {
   const existing = db.prepare("SELECT id FROM users WHERE email = ?").get(u.email);
   if (existing) {
-    console.log(`Skipping ${u.email}, already exists`);
+    console.log(`Skipping ${u.email}, already exists`); 
     return;
   }
   const hash = bcrypt.hashSync(u.password, 10);
