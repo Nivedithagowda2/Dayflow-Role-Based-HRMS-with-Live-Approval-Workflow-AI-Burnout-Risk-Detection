@@ -11,7 +11,7 @@ function publicUser(user) {
 }
 
 // Get own profile
-router.get("/me", (req, res) => {
+router.get("/me", (req, res) => { 
   const user = db.prepare("SELECT * FROM users WHERE id = ?").get(req.user.id);
   res.json(publicUser(user));
 });
