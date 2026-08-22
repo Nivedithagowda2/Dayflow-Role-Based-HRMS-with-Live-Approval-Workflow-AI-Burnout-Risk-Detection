@@ -10,7 +10,7 @@ router.get("/me", (req, res) => {
   const user = db
     .prepare("SELECT salary, job_title, department FROM users WHERE id = ?")
     .get(req.user.id);
-  res.json(user);
+  res.json(user); 
 });
 
 // Admin: view payroll for all employees
