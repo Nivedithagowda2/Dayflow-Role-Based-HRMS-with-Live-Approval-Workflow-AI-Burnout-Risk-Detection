@@ -197,6 +197,25 @@ Each factor adds weighted points; the total maps to **Low / Medium / High**. The
 - Dark/light theme toggle
 - Migrate SQLite → PostgreSQL for production use
 
+
+## 👥 Team Members
+
+| Name | Role | Responsibilities |
+|------|------|------------------|
+| **Niveditha** | Team Lead & Backend Developer and Database  | Backend development, database design, and API development |
+| **Chithra** | Frontend Developer | UI/UX development and frontend implementation |
+| **Navitha** | Backend Developer | Backend development and API integration |
+
+
 ## 10. License
 
 This project was built as a submission for a hackathon/academic assignment based on the "Dayflow — Human Resource Management System" problem statement.
+
+
+
+
+
+
+
+
+
