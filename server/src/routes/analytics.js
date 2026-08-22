@@ -13,7 +13,7 @@ router.get("/burnout", (req, res) => {
     ...e,
     ...calculateBurnoutRisk(e.id),
   }));
-  res.json(results);
+  res.json(results); 
 });
 
 // Burnout risk for a single employee
