@@ -12,7 +12,7 @@ function signToken(user) {
     { id: user.id, role: user.role, email: user.email, name: user.name },
     process.env.JWT_SECRET,
     { expiresIn: "7d" }
-  );
+  ); 
 }
 
 function publicUser(user) {
