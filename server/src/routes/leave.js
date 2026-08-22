@@ -16,7 +16,7 @@ router.post("/", (req, res) => {
     return res.status(400).json({ error: "Invalid leave type" });
   }
   if (new Date(end_date) < new Date(start_date)) {
-    return res.status(400).json({ error: "End date cannot be before start date" });
+    return res.status(400).json({ error: "End date cannot be before start date" }); 
   }
 
   const result = db
