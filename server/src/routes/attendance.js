@@ -9,7 +9,7 @@ function todayStr() {
   return new Date().toISOString().slice(0, 10);
 }
 function nowTime() {
-  return new Date().toTimeString().slice(0, 5);
+  return new Date().toTimeString().slice(0, 5); 
 }
 
 // Employee: check in for today
