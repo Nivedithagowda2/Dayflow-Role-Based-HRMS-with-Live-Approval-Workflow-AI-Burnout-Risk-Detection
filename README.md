@@ -6,6 +6,13 @@ A Human Resource Management System that digitizes core HR operations — onboard
 
 ---
 
+##  Demo Video
+
+[![Dayflow HRMS Demo](https://img.youtube.com/vi/577H2Bd_SP0/maxresdefault.jpg)](https://www.youtube.com/watch?v=577H2Bd_SP0)
+
+▶️ **[Watch the full demo on YouTube](https://www.youtube.com/watch?v=577H2Bd_SP0)**
+
+
 ## 1. Problem Statement
 
 Most small and mid-sized companies still manage HR processes manually — spreadsheets, WhatsApp messages, and paper leave forms — with no single source of truth and no clear approval trail. This creates friction for both sides:
