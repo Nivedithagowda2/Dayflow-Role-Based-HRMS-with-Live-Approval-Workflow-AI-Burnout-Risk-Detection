@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Dayflow HRMS backend - Express API with SQLite",
   "main": "src/index.js",
-  "type": "commonjs",
+  "type": "commonjs", 
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js", 
